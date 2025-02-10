@@ -3,7 +3,7 @@
   padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #2C2C34;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -17,7 +17,7 @@
 
 /* Individual recipe card styling */
 .recipe-container {
-  background-color: #f9f9f9;
+  background-color: #F4EBBE;
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -59,7 +59,7 @@
   padding: 10px 15px;
   font-size: 16px;
   color: #fff;
-  background-color: #ff6f00;
+  background-color: #494850;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -96,8 +96,7 @@
 .recipe-full-details {
   display: none;
   padding: 20px;
-  background: #f9f9f9;
-  border-top: 1px solid #eee;
+  background: #F4EBBE;
   margin-top: 10px;
 }
 

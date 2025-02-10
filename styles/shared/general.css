@@ -1,4 +1,11 @@
 /* General Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -35,14 +42,55 @@ input {
   width: 20px;
 }
 
-.stellar-header-right-section {
-  width: 20px;
-}
-
 .stellar-logo {
-  width: 200px;
+  width: 150px;
 }
 
-header {
+.favorites-icon {
+  width: 30px; /* Set a fixed width */
+  height: 30px; /* Set a fixed height */
+}
+
+.profile-icon {
+  width: 30px; /* Set a fixed width */
+  height: 30px; /* Set a fixed height */
+}
+
+.stellar-header {
   display: grid;
+  grid-template-columns: 1fr auto 1fr; /* 3 columns: left, middle, right */
+  align-items: center; /* Vertically center items */
+  gap: 20px; /* Space between sections */
+  padding: 10px 20px; /* Add some padding */
+  background-color: #CACC90; /* Example background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+.stellar-header-left-section {
+  border: 2px solid black;
+  justify-self: start; /* Align left section to the start */
+}
+
+.stellar-header-middle-section {
+  justify-self: center; /* Center the middle section */
+  display: flex; /* Use Flexbox for the search bar and button */
+  gap: 20px; /* Space between search bar and button */
+  max-width: 500px;
+  width: 100%;
+}
+
+.stellar-header-right-section {
+  justify-self: end; /* Align right section to the end */
+  align-self: start;
+  display: flex; /* Use Flexbox for the favorites and profile links */
+  gap: 20px; /* Space between links */
+  white-space: nowrap;
+}
+
+.favorites-link,
+.profile-link {
+  display: flex;
+  flex-direction: column; /* Stack icon and text vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 4px; /* Space between icon and text */
 }

@@ -209,7 +209,7 @@ const recipes = [
   }
 ];
 
-
+/*
 let recipesHTML = '';
 
 recipes.forEach((recipe) => {
@@ -262,4 +262,4 @@ document.querySelectorAll('.add-to-favorites-button').forEach((button) => {
 function toggleRecipeDetails(recipeId) {
   const detailsSection = document.getElementById(`details-${recipeId}`);
   detailsSection.classList.toggle('visible');
-}
+}*/
