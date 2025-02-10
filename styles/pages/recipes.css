@@ -68,12 +68,12 @@
 }
 
 .add-to-favorites-button:hover {
-  background-color: #e65c00;
+  background-color: #A790A5;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .add-to-favorites-button:active {
-  background-color: #cc4f00;
+  background-color: #A790A5;
   transform: translateY(2px);
 }
 
